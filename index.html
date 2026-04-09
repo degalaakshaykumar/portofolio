@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshay Portfolio</title>
+
+<style>
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #0f172a, #020617);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    width: 100%;
+    background: rgba(2,6,23,0.9);
+    padding: 15px;
+    text-align: center;
+    top: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px 60px;
+}
+
+.hero img {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+}
+
+.highlight {
+    color: #38bdf8;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARDS */
+.card {
+    background: rgba(30,41,59,0.6);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #2563eb;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* PROJECT BUTTON */
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="https://via.placeholder.com/120" alt="profile">
+
+    <h1>Akshay Kumar Degala</h1>
+    <p class="highlight">UI/UX Designer | Game Designer | Programmer</p>
+
+    <a href="#projects" class="btn">View Work</a>
+    <a href="https://github.com/degalaakshaykumar" class="btn" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/degala-akshay-kumar-250527314" class="btn" target="_blank">LinkedIn</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a Computer Science Engineering student passionate about UI/UX Designing,
+            Game Development, and Programming. I enjoy building creative and user-friendly applications 
+            and continuously improving my skills.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Java</span>
+        <span>Python</span>
+        <span>C</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Figma</span>
+        <span>Canva</span>
+        <span>Game Design</span>
+        <span>GitHub</span>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Temperature Converter</h3>
+        <p>Converts temperature between Celsius, Fahrenheit, and Kelvin.</p>
+        <a href="https://github.com/degalaakshaykumar" class="project-btn" target="_blank">GitHub</a>
+    </div>
+
+    <div class="card">
+        <h3>Number Guessing Game</h3>
+        <p>Interactive game using random number logic.</p>
+        <a href="https://github.com/degalaakshaykumar" class="project-btn" target="_blank">GitHub</a>
+    </div>
+
+    <div class="card">
+        <h3>Indian Culture Web App</h3>
+        <p>Interactive platform showcasing Indian culture and monuments.</p>
+        <a href="https://github.com/degalaakshaykumar" class="project-btn" target="_blank">GitHub</a>
+    </div>
+
+</section>
+
+<!-- INTERNSHIP -->
+<section>
+    <h2>Internship</h2>
+    <div class="card">
+        <p>NxtSync Private Limited - Software Development Intern</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: akshaykumardegala31@gmail.com</p>
+        <p>GitHub: 
+            <a href="https://github.com/degalaakshaykumar" target="_blank">
+                github.com/degalaakshaykumar
+            </a>
+        </p>
+        <p>LinkedIn: 
+            <a href="https://www.linkedin.com/in/degala-akshay-kumar-250527314" target="_blank">
+                linkedin.com/in/degala-akshay-kumar
+            </a>
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Akshay Kumar</p>
+</footer>
+
+</body>
+</html>
